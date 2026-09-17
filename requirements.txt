@@ -1,0 +1,8 @@
+# vidgrab — dependency manifest
+
+yt-dlp        REQUIRED — the download engine (pip3 install -U yt-dlp)
+ffmpeg        REQUIRED — merges HD video+audio, mp3 conversion
+bash          (4.0+)   REQUIRED
+
+# one-line setup:
+# sudo apt install -y ffmpeg && sudo pip3 install -U yt-dlp
